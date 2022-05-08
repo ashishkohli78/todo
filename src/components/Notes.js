@@ -26,12 +26,12 @@ const itemDelet =(a)=>{
     <>
     <div>
       <form onSubmit={handleSubmt}>
-          <h1>Enter Your Today's Task: </h1>
+          <h1 style={{color:"green"}}>Enter Your Today's Task: </h1>
           <input value={name} onChange={handleChange}/>
           <button>submit</button>
       </form> <hr/>
       <div>
-          <h2>Task List</h2>
+          <h2 style={{color:"green"}}>Task List</h2>
           {data.map((value,index)=>{
                return(
                    <Show 
